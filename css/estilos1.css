@@ -1,0 +1,233 @@
+.meuscursos {
+	background-image: url(../img/meuscursos.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	
+		font-size: 14px;
+		padding-right: 35px;
+		text-align: right;
+		width: 140px;
+}
+
+.menu-opcoes ul {
+	font-size: 15px;
+}
+.menu-opcoes a {
+	color: #003366;
+}
+
+body {
+	color:#333333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+.menu-opcoes ul li {
+	display: inline;
+	margin-left: 20px;
+}
+
+.meuscursos {
+	padding-top: 8px;
+}
+.container {
+	margin: 0 auto;
+	width: 940px;
+	
+}
+
+nav{
+
+	position: relative;
+	display: inline-block;
+	font-size: 1,6vw;
+	font-weight: 700;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+
+}
+
+
+
+header {
+	position: relative;
+	
+}
+.menu-opcoes {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.meuscursos {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.busca,
+.menu-cursos {
+	background-color: #DCDCDC;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+	margin-right: 10px;
+	width: 230px;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+	margin: 10px;
+}
+
+.menu-cursos li {
+	background-color: white;
+	margin-bottom: 1px;
+	padding: 5px 10px;
+}
+
+.menu-cursos a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.busca input[type=search] {
+	width: 170px;
+}
+
+.busca,
+.menu-cursos {
+	float: left;
+}
+
+.menu-cursos {
+	clear: left;
+}
+.destaque {
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+.logotipo {
+	position: relative;
+	top: 20px;
+	left: 50px;
+}
+
+.menu-cursos {
+	text-transform: uppercase;
+}
+
+.item-menu {
+	text-decoration: none;
+}
+
+.destaque{
+	margin-top:10px;
+	
+}
+
+.menu-cursos {
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+	
+	
+.painel {
+	margin: 10px 0;
+	padding: 10px;
+	width: 445px;
+}
+
+.novos {
+	float: left;
+}
+
+.mais-acessados {
+	float: right;
+}
+
+.painel li {
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	
+	margin: 2px;
+	padding-bottom: 10px;
+	
+}
+.painel h2 {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+	margin-bottom: 10px;
+}
+.painel a {
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+.novos {
+	background-color: #DCDCF5;
+}
+.mais-acessados {
+	background-color: #DCDCF5;
+}
+
+
+
+.social a {
+	/* tamanho da imagem */
+	height: 32px;
+	width: 32px;
+	/* image replacement */
+	display: block;
+	text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+	background-image: url(../img/facebook.png);
+}
+.social a[href*="twitter.com"] {
+	background-image: url(../img/twitter.png);
+
+}
+footer {
+	clear: both;
+}
+.social {
+	position: absolute;
+	top: 12px;
+	right: 0;
+}
+.social li {
+	float: left;
+	margin-left: 25px;
+}
+
+.busca button {
+	background-image: url(../img/busca.png);
+	background-repeat: no-repeat;
+	border: none;
+	
+	width: 20px;
+	height: 20px;
+	
+	text-indent: -9999px;
+}
+
